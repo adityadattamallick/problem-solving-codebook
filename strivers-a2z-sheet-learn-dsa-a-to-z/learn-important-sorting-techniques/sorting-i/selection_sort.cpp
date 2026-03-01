@@ -1,11 +1,13 @@
 /**
  * Selection Sort:
- * Time Complexity: O(N^2)
- * The sorting algorithm performs in O(N^2) time for best, average, and worst cases
- * As it has two nested loops, resulting in approximately N(N-1)/2 comparisons
- *
+ * Time Complexity: 
+ *   - Best Case: O(N^2)
+ *   - Average Case: O(N^2)
+ *   - Worst Case: O(N^2)
+ * Explanation: Selection Sort repeatedly selects the minimum element from the unsorted part and swaps it with the current position.
+ * It always performs N(N-1)/2 comparisons regardless of initial order.
  * Space Complexity: O(1)
- * No extra space is required beyond the input array
+ * No extra space is required beyond the input array.
  */
 
 #include <iostream>
