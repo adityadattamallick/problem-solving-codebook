@@ -35,7 +35,7 @@ int main() {
     int length = sizeof(a) / sizeof(a[0]); // Array length
 
     // Printing the given array
-    std::cout << "Given array:  [";
+    std::cout << "Given array: [";
     for (int i = 0; i < length; i++) {
         std::cout << a[i];
         if (i < length - 1) std::cout << ", ";
